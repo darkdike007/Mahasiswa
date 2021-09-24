@@ -9,15 +9,15 @@ Website ini adalah sebuah website yang saya buat, sebagai test dari perusahaan P
     composer install
     ```
 - Menambahkan database yang telah anda buat ke file .env.
-- Jalankan perintah berikut ini untuk memunculkan node_modules (Optional).
+- Jalankan perintah command berikut ini untuk memunculkan node_modules (Optional).
     ```bash
     npm install
     ```
-- Menjalankan migration dengan menjalankan perintah berikut ini.
+- Menjalankan migration dengan menjalankan perintah command berikut ini.
     ```bash
     php artisan migrate --seed
     ```
-- Jalankan websitenya dengan perintah berikut ini.
+- Jalankan websitenya dengan perintah command berikut ini.
     ```bash
     php artisan serve
     ```
