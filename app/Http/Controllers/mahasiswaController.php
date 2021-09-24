@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Service\MahasiswaService;
+use App\Http\Requests\mhsRequest;
 use App\Models\mahasiswa;
 
 class mahasiswaController extends Controller
@@ -37,7 +38,7 @@ class mahasiswaController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, MahasiswaService $MahasiswaService)
+    public function store(mhsRequest $request, MahasiswaService $MahasiswaService)
     {
         $MahasiswaService->storeMhs(
             $request->nim_mahasiswa,
@@ -76,7 +77,7 @@ class mahasiswaController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id, MahasiswaService $MahasiswaService)
+    public function update(mhsRequest $request, $id, MahasiswaService $MahasiswaService)
     {
         $MahasiswaService->updateMhs(
             $id,

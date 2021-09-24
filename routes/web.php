@@ -26,6 +26,6 @@ Route::get('/', function () {
 /**
  * Route untuk table mahasiswa
  */
-Route::resource('mahasiswa', mahasiswaController::class)->middleware(['auth']);
+Route::resource('mahasiswa', mahasiswaController::class)->middleware(['auth'])->only(['index', 'store', 'update', 'destroy']);
 
 require __DIR__.'/auth.php';

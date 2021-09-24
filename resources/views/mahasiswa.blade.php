@@ -59,6 +59,9 @@
                       </div>
                     </div>
                   </div>
+                  <p class="text-xs text-red-500 w-full text-right my-3">Required fields are marked with an asterisk
+                    <span>*</span>
+                  </p>
 
                 </div>
               </form>
@@ -82,8 +85,8 @@
           <table class="w-full">
             <thead>
               <tr class="text-md font-semibold tracking-wide text-left text-gray-900 bg-indigo-200 uppercase border-b border-gray-600">
-                <th class="px-4 py-3 w-40 text-center" style="min-width: 11rem;">NIM Mahasiswa</th>
-                <th class="px-4 py-3 text-center" style="min-width: 15rem;">Nama Mahasiswa</th>
+                <th class="px-4 py-3 w-40 text-center" style="min-width: 11rem;">NIM</th>
+                <th class="px-4 py-3 text-center" style="min-width: 15rem;">Nama</th>
                 <th class="px-4 py-3 w-40 text-center">Action</th>
               </tr>
             </thead>
@@ -167,6 +170,9 @@
                                       </div>
                                     </div>
                                   </div>
+                                  <p class="text-xs text-red-500 w-full text-right my-3">Required fields are marked with an asterisk
+                                    <span>*</span>
+                                  </p>
 
                                 </div>
                               </form>
